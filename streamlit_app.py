@@ -1,6 +1,4 @@
 import streamlit as st
 
-st.title("Olá Mundo!")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title(Teste Regressao Linear)
+st.write("ola")
