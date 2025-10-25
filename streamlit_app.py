@@ -4,8 +4,8 @@ import requests
 
 #carregando modelo
 url = "https://github.com/acidBits/blank-app/blob/main/modelo.pkl"
-r = requests.get(url)
-modelo = joblib.load("modelo.pkl")
+#r = requests.get(url)
+modelo = joblib.load(url)
 
 
 st.title("Conversor Temperatura ML")
