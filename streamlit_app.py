@@ -1,6 +1,5 @@
 import streamlit as st
 import joblib
-import requests
 
 #carregando modelo
 modelo = joblib.load("modelo.pkl")
