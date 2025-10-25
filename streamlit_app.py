@@ -11,4 +11,4 @@ temp = float(temp)
 
 if st.button("Converter"):
   saida = modelo.predict([[temp]])
-  st.write(saida[0])
+  st.write(f'{saida[0]}')
