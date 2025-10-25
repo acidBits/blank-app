@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+import requests
 
 #carregando modelo
 url = "https://github.com/acidBits/blank-app/blob/main/modelo.pkl"
