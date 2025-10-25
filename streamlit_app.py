@@ -11,4 +11,4 @@ temp = st.number_input("Digite a temperatura em Celsius:",value=0)
 
 if st.button("Converter"):
   saida = modelo.predict([[temp]])
-  st.write(f'{saida[0]:.2f} °F')
+  st.write(f'{saida[0]} °F')
