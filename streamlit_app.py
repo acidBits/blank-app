@@ -6,8 +6,7 @@ import requests
 modelo = joblib.load("modelo.pkl")
 
 st.title("Conversor Temperatura ML")
-temp = st.text_input("Digite a temperatura em Celsius:")
-temp = float(temp)
+temp = float(st.text_input("Digite a temperatura em Celsius:"))
 
 if st.button("Converter"):
   saida = modelo.predict([[temp]])
